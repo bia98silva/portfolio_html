@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Vollkorn & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+.destaque{
+    color: aqua;
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 614px;
+    height: 144;
+    font-family: Vollkorn', serif;
+}
+.apresentacao__titulo{
+    font-size: 36px;
+}
+.apresentacao__texto{
+    font-size: 24px;
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao_links_links{
+   background-color: aqua;
+   width: 230px;
+   text-align: center;
+   border-radius: 16px;
+   font-size: 24px;
+   padding: 21.5px;
+   text-decoration: none;
+   color: #000000;
+   font-family: Vollkorn', serif;
+
+}
+#myself{
+    width: 300px;
+    height: 300px;
+
+}
